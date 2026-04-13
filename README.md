@@ -2,6 +2,34 @@
 
 一个零依赖、单文件的刷题背题网页应用。导入任意题库即可开始练习，内置艾宾浩斯遗忘曲线间隔重复算法，支持多题库管理。
 
+## 界面预览
+
+<table>
+<tr>
+<td align="center">单选题（答对）</td>
+<td align="center">多选题</td>
+</tr>
+<tr>
+<td><img src="screenshots/06-quiz-single-correct.png" width="400"></td>
+<td><img src="screenshots/02-quiz-multi.png" width="400"></td>
+</tr>
+<tr>
+<td align="center">判断题（答错）</td>
+<td align="center">学习记录</td>
+</tr>
+<tr>
+<td><img src="screenshots/05-quiz-wrong.png" width="400"></td>
+<td><img src="screenshots/07-records.png" width="400"></td>
+</tr>
+<tr>
+<td align="center" colspan="2">设置面板（题库管理 / 导入导出）</td>
+</tr>
+<tr>
+<td><img src="screenshots/08-settings-top.png" width="400"></td>
+<td><img src="screenshots/09-settings-bottom.png" width="400"></td>
+</tr>
+</table>
+
 ## 特点
 
 - **单文件部署** — 整个应用只有一个 `index.html`，双击即可运行，无需服务器、无需安装
@@ -160,7 +188,9 @@ index.html
 
 ```
 ├── index.html          # 应用本体（单文件，包含全部代码和数据）
-└── README.md           # 本文档
+├── README.md           # 本文档
+├── LICENSE             # GPL 3.0 开源协议
+└── screenshots/        # 界面截图
 ```
 
 ## 浏览器要求

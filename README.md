@@ -1,4 +1,4 @@
-# 通用刷题系统
+<h1 align="center">通用刷题系统</h1>
 
 一个零依赖、单文件的刷题背题网页应用。导入任意题库即可开始练习，内置艾宾浩斯遗忘曲线间隔重复算法，支持多题库管理。
 
@@ -196,3 +196,7 @@ index.html
 ## 浏览器要求
 
 Chrome、Edge、Firefox 等现代浏览器。
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=maliaosaide/quiz-app&type=Date)](https://star-history.com/#maliaosaide/quiz-app&Date)
